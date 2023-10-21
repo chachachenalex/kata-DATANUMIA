@@ -1,10 +1,7 @@
 ﻿# Yatzy Refactoring Kata
-
-This Refactoring Kata was designed by Jon Jagger and is available in his Cyber-Dojo. See [his blog post](http://jonjagger.blogspot.co.uk/2012/05/yahtzee-cyber-dojo-refactoring-in-java.html)
-
-I have changed it a little, so that the rules more closely match the original game.
-
-If you like this Kata, you may be interested in [my books](https://leanpub.com/u/emilybache) and website [SammanCoaching.org](https://sammancoaching.org)
+This my java kata required by datanumia. It is a maven project.
+I have refactoried the codes by implementing new features of java 8 (for ex: stream and etc.)
+During the work, I tried to apply TDD by rewriting firstly the part of test then coding the main part until all the test cases turn to green.
 
 ## Kata Description
 
