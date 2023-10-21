@@ -78,13 +78,13 @@ public class YatzyTest {
         assertEquals(9, ThreeOfAKind.score(new DiceRoll(3, 3, 3, 4, 5)));
         assertEquals(15, ThreeOfAKind.score(new DiceRoll(5, 3, 5, 4, 5)));
         assertEquals(9, ThreeOfAKind.score(new DiceRoll(3, 3, 3, 3, 5)));
+        assertEquals(9, ThreeOfAKind.score(new DiceRoll(3, 3, 3, 3, 3)));
     }
 
     @Test
     public void four_of_a_kind() {
         assertEquals(12, FourOfAKind.score(new DiceRoll(3, 3, 3, 3, 5)));
         assertEquals(20, FourOfAKind.score(new DiceRoll(5, 5, 5, 4, 5)));
-        assertEquals(9, FourOfAKind.score(new DiceRoll(3, 3, 3, 3, 3)));
     }
 
     @Test
